@@ -1,5 +1,5 @@
 const {findAuthorById} = require('./books');
-
+//Helper function to create object in getMostCommonGenres and getMostPopularAuthors
 function newObject(name, count) {
   return {
     name: name,
